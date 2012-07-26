@@ -1,3 +1,8 @@
+PATH
+  remote: ~/work/spree_suppliers
+  specs:
+    spree_suppliers (1.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -216,6 +221,7 @@ DEPENDENCIES
   rails (= 3.2.6)
   sass-rails (~> 3.2.3)
   spree
+  spree_suppliers!
   sqlite3
   thor (= 0.14.6)
   uglifier (>= 1.0.3)
