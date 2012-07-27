@@ -1,12 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.6'
-
-# lock 'thor' version for spree
-gem 'thor', '0.14.6'
-
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+gem 'rails', '3.2.7'
 
 gem 'sqlite3'
 
@@ -39,6 +33,6 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
-gem 'spree'
+gem 'spree', '~> 1.1'
 
 gem 'spree_suppliers', :path => '~/work/spree_suppliers'
