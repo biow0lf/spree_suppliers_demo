@@ -2,6 +2,7 @@ PATH
   remote: ~/work/spree_suppliers
   specs:
     spree_suppliers (1.0.0)
+      spree_core (>= 1.1.0)
 
 GEM
   remote: https://rubygems.org/

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120726143649) do
+ActiveRecord::Schema.define(:version => 20120726154928) do
 
   create_table "spree_activators", :force => true do |t|
     t.string   "description"
@@ -310,6 +310,7 @@ ActiveRecord::Schema.define(:version => 20120726143649) do
     t.datetime "created_at",                           :null => false
     t.datetime "updated_at",                           :null => false
     t.integer  "count_on_hand",        :default => 0,  :null => false
+    t.integer  "supplier_id"
   end
 
   add_index "spree_products", ["available_on"], :name => "index_products_on_available_on"
@@ -454,6 +455,22 @@ ActiveRecord::Schema.define(:version => 20120726143649) do
     t.string  "name"
     t.string  "abbr"
     t.integer "country_id"
+  end
+
+  create_table "spree_suppliers", :force => true do |t|
+    t.string   "name"
+    t.string   "address1"
+    t.string   "address2"
+    t.string   "city"
+    t.string   "state_id"
+    t.string   "zip_code"
+    t.string   "phone"
+    t.string   "fax"
+    t.string   "email"
+    t.string   "website"
+    t.text     "notes"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "spree_tax_categories", :force => true do |t|
