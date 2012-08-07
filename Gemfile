@@ -36,3 +36,6 @@ gem 'jquery-rails'
 gem 'spree', '~> 1.1'
 
 gem 'spree_suppliers', :path => '~/work/spree_suppliers'
+
+gem 'sextant'
+gem 'quiet_assets'
