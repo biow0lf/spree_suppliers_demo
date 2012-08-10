@@ -35,7 +35,7 @@ gem 'jquery-rails'
 # gem 'debugger'
 gem 'spree', '~> 1.1'
 
-gem 'spree_suppliers', :path => '~/work/spree_suppliers'
+gem 'spree_suppliers', :git => 'git://github.com/biow0lf/spree_suppliers.git'
 
 gem 'sextant'
 gem 'quiet_assets'

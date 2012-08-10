@@ -1,5 +1,6 @@
-PATH
-  remote: ~/work/spree_suppliers
+GIT
+  remote: git://github.com/biow0lf/spree_suppliers.git
+  revision: f8b005c42401f5dac85a7490afd88503750ac3fa
   specs:
     spree_suppliers (1.0.0)
       spree_core (>= 1.1.0)
