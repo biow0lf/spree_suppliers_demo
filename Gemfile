@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.7'
+gem 'rails', '3.2.12'
 
 gem 'sqlite3'
 
@@ -33,7 +33,7 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
-gem 'spree', '~> 1.1'
+gem 'spree', '~> 1.3'
 
 gem 'spree_suppliers', :git => 'git://github.com/biow0lf/spree_suppliers.git'
 
