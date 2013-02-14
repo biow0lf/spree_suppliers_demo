@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
 
+# Bundle edge Rails instead:
+# gem 'rails', :git => 'git://github.com/rails/rails.git'
+
 gem 'sqlite3'
 
 
@@ -33,9 +36,12 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
-gem 'spree', '~> 1.3'
+gem 'spree', '1.3.2'
+gem 'spree_gateway', :github => 'spree/spree_gateway', :branch => '1-3-stable'
+gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => '1-3-stable'
 
 gem 'spree_suppliers', :git => 'git://github.com/biow0lf/spree_suppliers.git'
 
 gem 'sextant'
 gem 'quiet_assets'
+
